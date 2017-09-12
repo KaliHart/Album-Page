@@ -4,8 +4,26 @@ body {
 
 h1 {
     text-align: center;
+    font-family: 'Comic Sans MS';
 }
 
 p {
     font-family: verdana;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Comic Sans MS';
+}
+
+ul {
+    font-style: italic;
+}
+
+div {
+    background-image: url("LadyAPic.jpg");
+    background-position: center;
+    height: 300px;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
 }
