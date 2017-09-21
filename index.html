@@ -2,8 +2,13 @@
 <html>
     <head>
         <title>Lab - Album Page V1</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
-        body {background-color: gainsboro;}
+        body {background-color: lightcyan; font-family: verdana;}
         p {color: navy;}
     </style>
     <link href="albumStyle.css"
@@ -12,7 +17,7 @@
     </head>
     <body>
         <div>
-        <!-- <img src="LadyAPic.jpg"        alt="Lady A Album Cover"        style="width: 300px"/> -->
+        <center><img src="LadyAPic.jpg" class="img-circle"  alt="Lady A Album Cover"  style="width: 300px"/></center>
         </div>
         <h1 align="center" style="color:red">Heart Break</h1>
         <h3 align="center"><a href="https://ladyantebellum.com/#/">Lady Antebellum</a></h3>
@@ -25,14 +30,15 @@
             <li>Dave Haywood - guitar, piano</li>
             <li>Producer: busbee </li>
         </ul>
-        <table align="center">
+        <div class="table-responsive">
+        <table class="table table-striped" align="center">
             <col style="width:100px"><col style="width:300px"><col style="width:150px">
             <style>
                 table, th, td {
                     border:1px solid black;
                     }
             </style>
-            <caption>Tracks</caption>
+            <caption><b><font color="black">Tracks</font></b></caption>
             <tr bgcolor="grey">
                 <th>Track #</th>
                 <th>Track Title</th>
@@ -53,6 +59,22 @@
                 <td align="center">Somebody Else's Heart</td>
                 <td align="center">3:32</td>
             </tr>
+            <tr style="font-style: italic;" bgcolor="lightblue">
+                    <td align="center">4</td>
+                    <td align="center">This City</td>
+                    <td align="center">3:04</td>
+            </tr>
+            <tr style="font-style: italic;" bgcolor="lightblue">
+                    <td align="center">5</td>
+                    <td align="center">Hurt</td>
+                    <td align="center">3:46</td>
+            </tr>
+            <tr style="font-style: italic;" bgcolor="lightblue">
+                <td align="center">6</td>
+                <td align="center">Army</td>
+                <td align="center">3:17</td>
+            </tr>
         </table>
+    </div>
     </body>
 </html>

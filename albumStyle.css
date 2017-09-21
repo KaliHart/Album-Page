@@ -1,17 +1,4 @@
-body {
-    background-color: lightcyan;
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Comic Sans MS';
-}
-
-p {
-    font-family: verdana;
-}
-
-h3 {
+h1,  h3 {
     text-align: center;
     font-family: 'Comic Sans MS';
 }
@@ -20,17 +7,21 @@ ul {
     font-style: italic;
 }
 
-div {
+/* div {
     background-image: url("LadyAPic.jpg");
     background-position: center;
     height: 300px;
     background-size: 300px 300px;
     background-repeat: no-repeat;
-}
+} */
 
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+th {
+    background-color: darkgray;
 }
 
 a:link {
